@@ -104,7 +104,7 @@ export default function Navbar() {
             </svg>
           </label>
 
-          <a className="btn btn-primary px-4 py-2"><Link to ="/Login">Login</Link></a>
+        <Link to ="/Login" className='btn btn-primary px-4 py-2'>Login</Link>
         </div>
       </div>
     </>

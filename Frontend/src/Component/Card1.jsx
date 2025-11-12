@@ -19,7 +19,7 @@ export default function Card1({item}) {
     </h2>
     <p>{item.title}</p>
     <div className="card-actions justify-end">
-      <div className="badge badge-outline">{item.price}</div>
+      <div className="badge badge-outline text-black">{item.price}</div>
       <div className="badge badge-outline">{item.category}</div>
     </div>
   </div>
